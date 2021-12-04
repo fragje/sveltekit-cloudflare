@@ -1,0 +1,6 @@
+compatibility_date = "2021-12-04"
+
+[env.dev]
+kv_namespaces = [
+	{ binding = "TEST", id = 0c99308290694149aea7f182a3d35abd }
+]
