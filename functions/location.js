@@ -9,5 +9,5 @@ export async function onRequest({env}) {
   // console.log(context.env);
   // const {cf} = context.request;
   // return new Response(JSON.stringify(cf, null, 2), { 'Content-Type': 'application/json' });
-  return new Response('hello', value)
+  return new Response(value);
 }
